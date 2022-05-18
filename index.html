@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="nav-container flex">
+        <section class="nav-section flex" id="nav-section-1">
+            <header class="main-header">
+                <a class="nav-link" href="/">Jeremy Anderson</a>
+            </header>
+        </section>
+        <section class="nav-section flex" id="nav-section-2">
+            <nav>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </nav>
+        </section>
+    </div>
+<!--end nav-->
+<!--begin main-->
+    <div class="main-container flex">
+        <main class="main flex" id="main">
+            <section class="content-section flex col" id="about">
+                <header class="section-header">About<hr/></header>
+                <div class="section-card flex row sbt" id="about-section-card">
+                    <section class="about-section" id="about-section-1">
+                        <img src="./assets/images/pfp.jpg" class="card-avatar" alt="avatar"/>
+                    </section>
+                    <section class="about-section" id="about-section-2">
+                        <header class="section-header"></header>
+                        <p>Paragraph about me</p>
+                    </section>
+                    <section class="about-section" id="about-section-3">
+                        <header class="section-header">Skills</header>
+                    </section>
+
+                </div>
+            </section>
+            <section class="content-section col" id="projects">
+                <header class="section-header">Projects<hr/></header>
+                <div class="flex" id="project-1-container flex" style="height: 50vh;">
+                    <a href="https://assassination-multiplayer.herokuapp.com" class="section-card project" id="project-1" style="height: 45vh;">
+                        <section class="card-details">
+                            <div class="card-header">
+                                <header class="project-title"><h1>Assassination</h1><hr/></header>
+                                <h3>Full-stack multiplayer game</h3>
+                                <p>(Express.js, Node.js, React.js, MongoDB, Socket.io, GraphQL)</p>
+                            </div>
+                        </section>
+<!--                        <img role="img" class="project-image" src="./assets/images/img.png" alt="assassination"/>-->
+                    </a>
+                </div>
+                <div class="flex row" id="projects-container">
+                   <div>
+                    <a href="https://notes-express.herokuapp.com" class="section-card project flex" id="project-2"><img src="./assets/images/notes.png" alt="notes"/>
+                        <section class="card-details">
+                            <div class="card-header">
+                                <header class="project-title"><h1>Notes</h1><hr/></header>
+                                <h3>Notes App</h3>
+                                <p>(Express.js, Node.js, REST API)</p>
+                            </div>
+                        </section>
+                    </a>
+                   </div>
+                   <div>
+                    <a href="https://github.com/jeremy0anderson/nosql-social-media-api" class="section-card project flex" id="project-3"> <img src="https://via.placeholder.com/300x180" alt="social0api"/>
+                        <section class="card-details">
+                            <div class="card-header">
+                                <header class="project-title"><h1>Social Network API</h1><hr/></header>
+                                <h3>Back End components for a social network.</h3>
+                                <p>(Express.js, Mongoose, MongoDB)</p>
+                                </div>
+                        </section>
+                    </a>
+                   </div>
+                    <div class="section-card project flex" id="project-4">
+
+                    </div>
+                </div>
+            </section>
+            <section class="content-section" id="contact">
+                <header class="section-header">Contact<hr/></header>
+                <div class="section-card">
+
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

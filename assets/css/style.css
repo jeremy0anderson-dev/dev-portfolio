@@ -1,0 +1,195 @@
+@media(max-width: 600px) {
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        alignment: center;
+        width: 100vw;
+    }
+    .nav-section{
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    .card-avatar{
+        max-width: 80px;
+        border-radius: 100%;
+        margin: 20px;
+    }
+}
+
+
+
+:root{
+
+}
+*{
+    font-family: "Apple SD Gothic Neo", sans-serif;
+}
+hr{
+    margin: 0;
+    padding: 0;
+}
+h1, h3, p{
+    margin: 1vh 1vw;
+}
+body{
+    margin: 0;
+}
+.flex{
+    display: flex;
+}
+.col{
+    flex-flow: column;
+}
+.row{
+    flex-flow: row;
+}
+.sbt{
+    justify-content: space-between;
+}
+.se{
+    justify-content: space-evenly;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+/*Nav start*/
+.nav-container{
+    background: linear-gradient(rgba(120,16,16,0.25), rgba(120,16,16,0.25));
+    background-size: cover;
+    justify-content: space-between;
+    font-size: large;
+}
+
+.nav-section{
+    background:transparent;
+    margin: 15px 10px;
+}
+#nav-section-2{
+    margin: 20px 10px;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    margin: 5px 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+}
+header{
+    font-size: x-large;
+    font-weight: bold;
+}
+.content-section{
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
+}
+main{
+    flex-flow: column;
+    height: 100vh;
+    width: 100vw;
+}
+.main-container{
+    margin:0;
+    padding: 10px;
+}
+.section-card{
+    margin: 10px 0;
+    z-index: 0;
+    box-shadow: 0 2px 40px 7px lightslategray;
+    position: -webkit-sticky;
+}
+/*About section*/
+.card-avatar{
+    max-width: 200px;
+    border-radius: 100%;
+}
+.small{
+    font-size: small;
+}
+#about{
+
+}
+/*end About section*/
+
+/*Sections*/
+.project{
+    width: 43vw;
+}
+.project img{
+    width: 43%;
+    position: absolute;
+}
+.project:hover{
+
+    cursor: pointer;
+}
+.card-details{
+    margin: 5vh 0;
+    float: left;
+    max-width: 50vw;
+    background: rgba(39, 80, 150, 0.96);
+    padding: 5px;
+    z-index: 1;
+    font-size: 85%;
+}
+.card-header{
+    padding: 10px;
+}
+/*.project-image{*/
+/*    left: 0;*/
+/*    max-width: %;*/
+/*    height: auto;*/
+/*    z-index: 0;*/
+/*}*/
+#projects{
+    max-height:100vh;
+}
+
+#project-1{
+    background-image: url("../images/img.png");
+    background-size: cover;
+}
+#project-2{
+    /*background-image: url("../images/notes.png");*/
+}
+#contact{
+
+}
+/*End Sections*/
+/*Cards*/
+
+#about-section-card{
+    width: auto;
+    padding: 2rem;
+}
+#about-section-1, #about-section-2{
+    display: flex;
+    float: left;
+}
+/*End Cards*/
+
+
+
+#project-1-container{
+    max-height: 100vh;
+    width: 100vw;
+
+}
+#project-1{
+    height: 30vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+#projects-container{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
