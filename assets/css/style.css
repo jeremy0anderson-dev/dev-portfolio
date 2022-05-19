@@ -57,10 +57,14 @@ body{
 }
 /*Nav start*/
 .nav-container{
-    background: linear-gradient(rgba(120,16,16,0.25), rgba(120,16,16,0.25));
+    background: whitesmoke;
     background-size: cover;
     justify-content: space-between;
     font-size: large;
+    position: fixed;
+    position: -ms-device-fixed;
+    width: 100vw;
+    z-index: 1000;
 }
 
 .nav-section{
@@ -97,19 +101,25 @@ main{
     width: 100vw;
 }
 .main-container{
-    margin:0;
     padding: 10px;
+    z-index: 0;
+}
+.spacer{
+    height:80px;
 }
 .section-card{
     margin: 10px 0;
     z-index: 0;
     box-shadow: 0 2px 40px 7px lightslategray;
     position: -webkit-sticky;
+    border-radius: 12px;
 }
 /*About section*/
 .card-avatar{
-    max-width: 200px;
+    max-height: 170px;
+    max-width: 170px;
     border-radius: 100%;
+    margin: 10px 20px 0 0;
 }
 .small{
     font-size: small;
@@ -165,12 +175,13 @@ main{
 }
 /*End Sections*/
 /*Cards*/
-
+#about-section-3{
+}
 #about-section-card{
     width: auto;
     padding: 2rem;
 }
-#about-section-1, #about-section-2{
+#about-section-1{
     display: flex;
     float: left;
 }
